@@ -53,3 +53,10 @@ else
 end
 
 # Combining Expressions
+
+temp = 70
+precipitation = 0
+
+if temp >= 65 && temp <= 75 && precipitation == 0
+    puts "It's perfect outside."
+end
