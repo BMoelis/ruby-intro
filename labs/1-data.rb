@@ -11,10 +11,13 @@
 # as well.
 
 dice_1 = rand(1..6)
-dice_2 = rand(1..6)
-
 puts dice_1
+
+dice_2 = rand(1..6)
 puts dice_2
+
+total = dice_1 + dice_2
+puts "The total is #{total}"
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
