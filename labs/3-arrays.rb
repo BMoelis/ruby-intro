@@ -13,15 +13,18 @@
 # Lastly, display each item in the list prepended with "buy ".
 
 my_shopping_list = ["milk", "eggs", "bacon"]
-friend_shopping_list = ["beer", "cookies", "apples"]
+friend_shopping_list = ["beer", "cookies", "steak"]
 shared_shopping_list = (my_shopping_list + friend_shopping_list).uniq
 
-buy_list = []
-for item in shared_shopping_list
-  buy_list << "Buy #{item}"
-end
+sorted_list = shared_shopping_list.sort
 
-p buy_list
+puts "buy #{sorted_list[0]}"
+puts "buy #{sorted_list[1]}"
+puts "buy #{sorted_list[2]}"
+puts "buy #{sorted_list[3]}"
+puts "buy #{sorted_list[4]}"
+puts "buy #{sorted_list[5]}"
+puts "buy #{sorted_list[6]}"
 
 # HINTS
 # Learn to read the documentation!
