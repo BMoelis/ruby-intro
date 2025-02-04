@@ -52,5 +52,5 @@ weather_data[:forecast].each do |day|
     print " with a #{(precipitation * 100).to_i}% chance of rain"
   end
 
-  puts # Move to the next line
+  puts
 end
